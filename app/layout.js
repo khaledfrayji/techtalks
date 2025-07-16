@@ -1,5 +1,8 @@
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import Navbar from "../components/Navbar";
+import TechTalksFooter from "@/components/Footer";
+import WhatsAppStickyButton from "@/components/Whatsapp";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -22,7 +25,10 @@ export default function RootLayout({ children }) {
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <Navbar />
+        <WhatsAppStickyButton/>
         {children}
+        <TechTalksFooter/>
       </body>
     </html>
   );
