@@ -205,7 +205,7 @@ const TechTalksAmbassador = () => {
               className="group bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white px-10 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25"
             >
               <a href={"https://kdpsg5nkr8j.typeform.com/to/Yo8wnvKf"} className="flex items-center gap-3">
-                <Image width={50} height={50}  src="/logo.png" alt="Apply Now" />
+                <Image width={50} height={50}  src="/l.png" alt="Apply Now" />
                 Apply Now
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </a>
