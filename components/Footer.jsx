@@ -27,7 +27,7 @@ const TechTalksFooter = () => {
     },
     {
       label: 'LinkedIn',
-      href: 'https://linkedin.com/company/techtalks-official',
+      href: 'https://www.linkedin.com/company/techtalkscourses/',
       icon: <Linkedin className="w-5 h-5" />,
       hoverColor: 'hover:text-blue-400'
     },

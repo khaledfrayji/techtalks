@@ -87,7 +87,7 @@ const TechTalksHero = () => {
           <div className="space-y-8">
             {/* Pre-headline */}
             <div className="text-cyan-400 text-sm font-medium tracking-widest uppercase">
-              A community built by devs, for devs
+              Built by devs, for devs
             </div>
 
             {/* Main Headline */}
@@ -121,7 +121,7 @@ const TechTalksHero = () => {
               </a>
 
               {/* Secondary CTA */}
-              <a href='https://chat.whatsapp.com/Lgi0Eubj6Jw9682LTKl1KA' className="group border-2 border-purple-400 text-purple-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-400 hover:text-white transition-all duration-300 transform hover:scale-105">
+              <a href='https://chat.whatsapp.com/Ige7sFb3m1LFqGgQwi3FV7' className="group border-2 border-purple-400 text-purple-400 px-8 py-4 rounded-lg font-semibold text-lg hover:bg-purple-400 hover:text-white transition-all duration-300 transform hover:scale-105">
                 <span className="flex items-center gap-2">
                   <Users size={20} />
                   Join Community
