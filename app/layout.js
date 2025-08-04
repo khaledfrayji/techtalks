@@ -20,38 +20,6 @@ export async function generateMetadata() {
     title: "TechTalks – Learn. Build. Grow.",
     description: "Real world programming courses, real projects. Build your skills and career with TechTalks.",
     metadataBase: new URL("https://techtalkslb.com"),
-
-    openGraph: {
-      title: "TechTalks – Learn. Build. Grow.",
-      description: "Join a developer-first platform built to teach and empower coders in Lebanon and beyond.",
-      url: "https://techtalkslb.com",
-      siteName: "TechTalks",
-      locale: "en_US",
-      type: "website",
-      images: [
-        {
-          url: "/opengraph-image.jpg", // Add a 1200x630 preview image
-          width: 1200,
-          height: 630,
-          alt: "TechTalks – Build your future in code",
-        },
-      ],
-    },
-
-    twitter: {
-      card: "summary_large_image",
-      title: "TechTalks",
-      description: "Learn programming through real courses and team projects.",
-      creator: "@techtalkslb", 
-      images: ["/opengraph-image.jpg"],
-    },
-
-    icons: {
-      icon: "/favicon.ico",
-      shortcut: "/favicon.ico",
-    
-    },
-
     themeColor: "#0D0D0D",
   };
 }
