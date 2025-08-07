@@ -101,8 +101,8 @@ export default function NotFound() {
             Oops! Page Not Found
           </h2>
           <p className="text-base sm:text-lg text-slate-300 mb-6 max-w-2xl mx-auto leading-relaxed">
-            The page you're looking for seems to have wandered off into the digital void. 
-            Don't worry though – even the best developers encounter 404s!
+            The page you&apos;re looking for seems to have wandered off into the digital void. 
+            Don&apos;t worry though – even the best developers encounter 404s!
           </p>
           
           {/* Fun Message */}
@@ -112,7 +112,7 @@ export default function NotFound() {
               <span className="text-slate-300 font-medium">Pro Tip</span>
             </div>
             <p className="text-slate-400 text-sm sm:text-base">
-              While you're here, why not grab a coffee and check out our amazing courses? 
+              While you&apos;re here, why not grab a coffee and check out our amazing courses? 
               Learning never goes out of style! 
             </p>
           </div>
