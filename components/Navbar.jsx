@@ -1,37 +1,54 @@
 // components/Navbar.tsx
 
-'use client';
+"use client";
 
-import Link from 'next/link';
-import { usePathname } from 'next/navigation';
-import { useState } from 'react';
-import { Menu, X, Home, BookOpen, Route, Users, Megaphone } from 'lucide-react';
-import Image from 'next/image';
+import Link from "next/link";
+import { usePathname } from "next/navigation";
+import { useState } from "react";
+import {
+  Menu,
+  X,
+  Home,
+  BookOpen,
+  Route,
+  Users,
+  Megaphone,
+  Trophy,
+} from "lucide-react";
+import Image from "next/image";
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
   const pathname = usePathname();
 
   const navLinks = [
-    { label: 'Home', href: '/', icon: <Home size={16} /> },
-    { label: 'Courses', href: '/courses', icon: <BookOpen size={16} /> },
+    { label: "Home", href: "/", icon: <Home size={16} /> },
+    { label: "Courses", href: "/courses", icon: <BookOpen size={16} /> },
+     { label: "About TechTalks", href: "/about", icon: <Users size={16} /> },
+    {
+      label: "Ambassador Program",
+      href: "/ambassador",
+      icon: <Megaphone size={16} />,
+    },
+     { label: "Champions", href: "/champions", icon: <Trophy size={16} /> },
    
-    { label: 'Ambassador Program', href: '/ambassador', icon: <Megaphone size={16} /> },
-    { label: 'About TechTalks', href: '/about', icon: <Users size={16} /> },
   ];
 
   const linkClasses = (href) =>
     `relative inline-flex items-center gap-1 transition-colors hover:text-[#00E5FF] ${
-      pathname === href ? 'text-[#00E5FF]' : 'text-white'
+      pathname === href ? "text-[#00E5FF]" : "text-white"
     }`;
 
   return (
     <header className="sticky top-0 z-50 w-full bg-black/30 backdrop-blur-md text-white shadow-md transition duration-300">
       <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-4 md:px-6">
         {/* Logo */}
-        <Link href="/" className="text-xl  flex items-center justify-center gap-1 font-bold text-white">
-        <Image src={"/l.png"} width={50} height={50} alt='Techtalks-logo' />
-        <h1 className='italic'>TechTalks</h1>
+        <Link
+          href="/"
+          className="text-xl  flex items-center justify-center gap-1 font-bold text-white"
+        >
+          <Image src={"/l.png"} width={50} height={50} alt="Techtalks-logo" />
+          <h1 className="italic">TechTalks</h1>
         </Link>
 
         {/* Desktop Navigation */}
