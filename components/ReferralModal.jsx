@@ -1,6 +1,6 @@
 'use client'
 import React, { useState, useEffect } from 'react';
-import { X, Users, Share2, Video, Briefcase, Calendar, Globe, MessageSquare } from 'lucide-react';
+import { X, Users, Share2, Video, Linkedin,ChevronsLeftRightEllipsis, Calendar,Instagram, Globe, MessageSquare } from 'lucide-react';
 
 const ReferralModal = () => {
   const [isVisible, setIsVisible] = useState(false);
@@ -11,10 +11,10 @@ const ReferralModal = () => {
     { value: 'social_media', label: 'Social Media', icon: <Share2 className="w-4 h-4" /> },
     { value: 'friends', label: 'Friends & Family', icon: <Users className="w-4 h-4" /> },
     { value: 'tiktok', label: 'TikTok', icon: <Video className="w-4 h-4" /> },
-    { value: 'linkedin', label: 'LinkedIn', icon: <Briefcase className="w-4 h-4" /> },
-    { value: 'instagram', label: 'Instagram', icon: <MessageSquare className="w-4 h-4" /> },
+    { value: 'linkedin', label: 'LinkedIn', icon: <Linkedin  className="w-4 h-4" /> },
+    { value: 'instagram', label: 'Instagram', icon: <Instagram  className="w-4 h-4" /> },
     { value: 'events', label: 'Tech Events', icon: <Calendar className="w-4 h-4" /> },
-    { value: 'workshops', label: 'Workshops', icon: <Globe className="w-4 h-4" /> },
+    { value: 'workshops', label: 'Workshops', icon: <ChevronsLeftRightEllipsis  className="w-4 h-4" /> },
     { value: 'google_search', label: 'Google Search', icon: <Globe className="w-4 h-4" /> },
     { value: 'other', label: 'Other', icon: <MessageSquare className="w-4 h-4" /> }
   ];

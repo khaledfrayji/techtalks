@@ -362,7 +362,7 @@ const CourseDetailPage = () => {
       <div ref={contentRef} className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-16">
         <div className="bg-slate-800/30 border border-slate-700/50 rounded-xl p-6 lg:p-8">
           <div className="flex items-center justify-between mb-6">
-            <h3 className="text-xl lg:text-2xl font-semibold text-white">Your Opinion Matters</h3>
+            <h3 className="text-xl lg:text-2xl text-center mx-auto font-semibold text-white">Your Opinion Matters</h3>
             {hasRated && (
               <button
                 onClick={handleEditRating}
