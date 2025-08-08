@@ -242,7 +242,7 @@ const Champions = () => {
           <div className="flex flex-col items-center sm:flex-row gap-4 justify-center">
             
             <Link href={"/internship"} className="border-2 border-gray-600 text-gray-300 hover:border-cyan-400 hover:text-cyan-400 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-              <span className="flex items-center sm:text-md md:text-lg  text-[16px] gap-2">
+              <span className="flex items-center sm:text-md md:text-lg  text-[15px] gap-2">
                 <Award className="w-5 h-5" />
                 View Internship Program
               </span>

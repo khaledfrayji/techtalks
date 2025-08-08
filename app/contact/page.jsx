@@ -61,7 +61,7 @@ const TechTalksContactPage = () => {
       icon: <Instagram className="w-8 h-8 text-white" />,
       title: "Instagram",
       description: "DM for casual messages or feedback",
-      action: "@techtalks",
+      action: "@techtalks.lb",
       link: "https://instagram.com/techtalks.lb",
       color: "from-pink-500 to-rose-600",
       badge: "Social"
@@ -71,7 +71,7 @@ const TechTalksContactPage = () => {
       title: "LinkedIn",
       description: "Collaboration or partnership messages",
       action: "TechTalks Company",
-      link: "https://linkedin.com/company/techtalkscourses",
+      link: "https://linkedin.com/company/techtalks-lb",
       color: "from-blue-600 to-indigo-600",
       badge: "Partnerships"
     }

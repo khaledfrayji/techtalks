@@ -29,7 +29,7 @@ const TechTalksFooter = () => {
     },
     {
       label: "LinkedIn",
-      href: "https://www.linkedin.com/company/techtalkscourses/",
+      href: "https://www.linkedin.com/company/techtalks-lb/",
       icon: <Linkedin className="w-5 h-5" />,
       bgGradient: "bg-gradient-to-br from-blue-500 to-blue-600",
       hoverGradient: "hover:from-blue-600 hover:to-blue-700",

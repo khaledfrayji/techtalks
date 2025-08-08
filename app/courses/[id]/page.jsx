@@ -224,7 +224,7 @@ const CourseDetailPage = () => {
         <div className="text-center max-w-md">
           <AlertTriangle className="w-16 h-16 text-amber-400 mx-auto mb-4" />
           <h1 className="text-2xl font-bold text-white mb-2">Course Not Found</h1>
-          <p className="text-slate-300 mb-6">The course you're looking for doesn't exist or has been removed.</p>
+          <p className="text-slate-300 mb-6">The course you're looking for doesn't exist yet.</p>
           <button 
             onClick={handleBrowseCourses}
             className="bg-gradient-to-r from-cyan-500 to-blue-500 hover:from-cyan-600 hover:to-blue-600 text-white px-6 py-3 rounded-lg font-medium transition-all duration-200 shadow-lg hover:shadow-xl"
