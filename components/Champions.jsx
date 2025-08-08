@@ -239,34 +239,17 @@ const Champions = () => {
             Learn from industry experts and build real-world projects that matter.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col items-center sm:flex-row gap-4 justify-center">
             
             <Link href={"/internship"} className="border-2 border-gray-600 text-gray-300 hover:border-cyan-400 hover:text-cyan-400 px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300">
-              <span className="flex items-center gap-2">
+              <span className="flex items-center sm:text-md md:text-lg  text-[16px] gap-2">
                 <Award className="w-5 h-5" />
                 View Internship Program
               </span>
             </Link>
           </div>
 
-          {/* Social Proof */}
-          <div className="mt-8 pt-8 border-t border-gray-700">
-            <div className="flex items-center justify-center gap-8 text-sm text-gray-400">
-              <div className="flex items-center gap-2">
-                <Star className="w-4 h-4 text-yellow-400" />
-                <span>4.9/5 Program Rating</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Trophy className="w-4 h-4 text-cyan-400" />
-                <span>75% Job Placement</span>
-              </div>
-              <div className="flex items-center gap-2">
-                <Users className="w-4 h-4 text-purple-400" />
-                <span>200+ Alumni Network</span>
-              </div>
-            </div>
-          </div>
-        </div>
+         </div>
       </div>
 
       <style jsx>{`

@@ -17,6 +17,7 @@ import {
   Shield,
   Globe
 } from 'lucide-react';
+import Link from 'next/link';
 
 const About = () => {
   const heroRef = useRef(null);
@@ -266,52 +267,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Join the Movement */}
-        <div ref={el => sectionsRef.current[4] = el} className="mb-20">
-          <div className="bg-gradient-to-r from-purple-900/30 to-cyan-900/30 border border-purple-500/30 rounded-xl p-12 text-center max-w-4xl mx-auto">
-            <h2 className="text-3xl font-bold text-white mb-6">Join the Movement</h2>
-            <p className="text-lg text-gray-300 mb-8 max-w-2xl mx-auto">
-              Be part of a community that's changing how developers learn. Whether you want to learn, teach, or help shape our platform.
-            </p>
-            
-            <div className="flex flex-col sm:flex-row gap-4 justify-center">
-              <button 
-                onClick={handleAmbassadorClick}
-                className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white px-8 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105"
-              >
-                <span className="flex items-center gap-2">
-                  <Star className="w-4 h-4" />
-                  Become an Ambassador
-                </span>
-              </button>
-              <button 
-                onClick={handleExploreClick}
-                className="border border-gray-600 hover:border-gray-500 text-gray-300 hover:text-white px-8 py-3 rounded-lg font-medium transition-all duration-300"
-              >
-                Start Learning Today
-              </button>
-            </div>
-
-            {/* Social Proof */}
-            <div className="mt-8 pt-8 border-t border-gray-700">
-              <div className="flex items-center justify-center gap-8 text-sm text-gray-400">
-                <div className="flex items-center gap-2">
-                  <Users className="w-4 h-4 text-cyan-400" />
-                  <span>5,000+ Developers</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <BookOpen className="w-4 h-4 text-purple-400" />
-                  <span>50+ Courses</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Star className="w-4 h-4 text-yellow-400" />
-                  <span>4.9/5 Rating</span>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-
+       
        
 
         {/* Final CTA */}
@@ -324,17 +280,8 @@ const About = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={handleLearningPathsClick}
-              className="group bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105"
-            >
-              <span className="flex items-center gap-2">
-                <Target className="w-5 h-5" />
-                Browse Learning Paths
-                <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
-              </span>
-            </button>
-            <button 
+          
+            <Link href={"https://chat.whatsapp.com/Ige7sFb3m1LFqGgQwi3FV7"}
               onClick={handleJoinCommunity}
               className="group border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
             >
@@ -342,7 +289,7 @@ const About = () => {
                 <MessageCircle className="w-5 h-5" />
                 Join the Community
               </span>
-            </button>
+            </Link>
           </div>
         </div>
       </div>

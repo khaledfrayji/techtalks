@@ -197,16 +197,7 @@ const TechTalksAmbassador = () => {
               Help shape the future of developer learning. Inspire, connect, and grow with us while making a real impact on the tech community.
             </p>
             
-            {/* Hero CTA */}
-            <button className="group bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white px-6 sm:px-8 lg:px-10 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg transition-all duration-300 transform hover:scale-105 hover:shadow-lg hover:shadow-purple-500/25">
-              <a href={"https://kdpsg5nkr8j.typeform.com/to/Yo8wnvKf"} className="flex items-center gap-2 sm:gap-3">
-                <Image width={40} height={40} src="/l.png" alt="Apply Now" className="w-8 h-8 sm:w-10 sm:h-10" />
-                <span className="hidden sm:inline">Apply Now</span>
-                <span className="sm:hidden">Apply</span>
-                <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 group-hover:translate-x-1 transition-transform" />
-              </a>
-            </button>
-
+          
             {/* Floating Elements - Hidden on mobile */}
             <div className="hidden sm:block absolute -top-6 -left-6 w-12 h-12 bg-gradient-to-r from-cyan-500 to-blue-500 rounded-full opacity-20 animate-pulse"></div>
             <div className="hidden sm:block absolute -bottom-4 -right-8 w-16 h-16 bg-gradient-to-r from-purple-500 to-pink-500 rounded-full opacity-20 animate-bounce"></div>
@@ -318,7 +309,7 @@ const TechTalksAmbassador = () => {
             </div>
             
             <button className="bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white px-6 sm:px-8 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105">
-              <a href={"https://kdpsg5nkr8j.typeform.com/to/Yo8wnvKf"} className="flex items-center gap-2">
+              <a href={"https://forms.gle/oTAZxRQJ2t7mDvtB8"} className="flex items-center gap-2">
                 <ExternalLink className="w-3 h-3 sm:w-4 sm:h-4" />
                 <span className="text-sm sm:text-base">Start Application</span>
               </a>
@@ -362,7 +353,7 @@ const TechTalksAmbassador = () => {
             </p>
             
             <button className="group bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white px-8 sm:px-10 lg:px-12 py-3 sm:py-4 rounded-lg font-semibold text-base sm:text-lg lg:text-xl transition-all duration-300 transform hover:scale-105 hover:shadow-xl hover:shadow-purple-500/25">
-              <a href={"https://kdpsg5nkr8j.typeform.com/to/Yo8wnvKf"} className="flex items-center gap-2 sm:gap-3">
+              <a href={"https://forms.gle/oTAZxRQJ2t7mDvtB8"} className="flex items-center gap-2 sm:gap-3">
                 <span className="hidden sm:inline">Become an Ambassador</span>
                 <span className="sm:hidden">Become Ambassador</span>
                 <ArrowRight className="w-4 h-4 sm:w-5 sm:h-5 lg:w-6 lg:h-6 group-hover:translate-x-1 transition-transform" />
