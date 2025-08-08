@@ -36,7 +36,7 @@ const TechTalksFooter = () => {
     },
     {
       label: "TikTok",
-      href: "https://www.tiktok.com/@techtalks.lb",
+      href: "https://www.tiktok.com/@techtalkslb",
       icon: <FaTiktok className="w-5 h-5" />,
       bgGradient: "bg-gradient-to-br from-gray-800 to-gray-900",
       hoverGradient: "hover:from-gray-900 hover:to-black",
