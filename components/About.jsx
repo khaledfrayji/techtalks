@@ -18,6 +18,7 @@ import {
   Globe
 } from 'lucide-react';
 import Link from 'next/link';
+import VisionSection from './VisionSection';
 
 const About = () => {
   const heroRef = useRef(null);
@@ -117,25 +118,7 @@ const About = () => {
     animateElements();
   }, []);
 
-  const handleExploreClick = () => {
-    console.log('Navigate to courses');
-    // In real app: navigate to /courses
-  };
-
-  const handleJoinCommunity = () => {
-    console.log('Navigate to community');
-    // In real app: navigate to /community
-  };
-
-  const handleAmbassadorClick = () => {
-    console.log('Navigate to ambassador program');
-    // In real app: navigate to /ambassadors
-  };
-
-  const handleLearningPathsClick = () => {
-    console.log('Navigate to learning paths');
-    // In real app: navigate to /learning-paths
-  };
+ 
 
   return (
     <div className="min-h-screen bg-black">
@@ -163,8 +146,8 @@ const About = () => {
           </p>
           
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button 
-              onClick={handleExploreClick}
+            <Link href={"/courses"} 
+             
               className="group bg-gradient-to-r from-cyan-600 to-blue-600 hover:from-cyan-500 hover:to-blue-500 text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300 transform hover:scale-105"
             >
               <span className="flex items-center gap-2">
@@ -172,16 +155,16 @@ const About = () => {
                 Explore Courses
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform" />
               </span>
-            </button>
-            <button 
-              onClick={handleJoinCommunity}
+            </Link>
+            <Link href={"https://chat.whatsapp.com/Ige7sFb3m1LFqGgQwi3FV7"}
+             
               className="group border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
             >
               <span className="flex items-center gap-2">
                 <MessageCircle className="w-5 h-5" />
                 Join Community
               </span>
-            </button>
+            </Link>
           </div>
         </div>
 
@@ -193,7 +176,7 @@ const About = () => {
             We're here to bridge the gap between confusion and confidence, turning scattered knowledge into structured growth that actually sticks.
           </p>
         </div>
-
+  <VisionSection/>
         {/* What Makes TechTalks Different */}
         <div ref={el => sectionsRef.current[1] = el} className="mb-20">
           <h2 className="text-3xl font-bold text-white text-center mb-12">
@@ -216,24 +199,7 @@ const About = () => {
           </div>
         </div>
 
-        {/* Our Vision for Developers */}
-        <div ref={el => sectionsRef.current[2] = el} className="max-w-4xl mx-auto mb-20">
-          <h2 className="text-3xl font-bold text-white text-center mb-12">Our Vision for Developers</h2>
-          
-          <div className="bg-gray-900/50 backdrop-blur-sm border border-gray-800 rounded-xl p-8">
-            <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-              {visionPoints.map((point, index) => (
-                <div key={index} className="text-center">
-                  <div className="w-12 h-12 bg-gradient-to-r from-purple-500 to-cyan-500 rounded-lg flex items-center justify-center mb-4 mx-auto">
-                    {point.icon}
-                  </div>
-                  <h3 className="text-lg font-semibold text-white mb-3">{point.title}</h3>
-                  <p className="text-gray-300 text-sm">{point.description}</p>
-                </div>
-              ))}
-            </div>
-          </div>
-        </div>
+    
 
         {/* The Journey So Far */}
         <div ref={el => sectionsRef.current[3] = el} className="max-w-4xl mx-auto mb-20">
@@ -273,16 +239,16 @@ const About = () => {
         {/* Final CTA */}
         <div ref={el => sectionsRef.current[6] = el} className="text-center max-w-3xl mx-auto">
           <h2 className="text-3xl font-bold text-white mb-6">
-            Whether you're just starting out or sharpening your edge — you're in the right place.
+            Whether you're just starting out or sharpening your edge, you're in the right place.
           </h2>
           <p className="text-lg text-gray-300 mb-8">
             Join thousands of developers who are already building their future, one skill at a time.
           </p>
           
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
+          <div className="flex flex-col items-center sm:flex-row gap-4 justify-center">
           
             <Link href={"https://chat.whatsapp.com/Ige7sFb3m1LFqGgQwi3FV7"}
-              onClick={handleJoinCommunity}
+             
               className="group border-2 border-purple-400 text-purple-400 hover:bg-purple-400 hover:text-white px-8 py-4 rounded-lg font-semibold text-lg transition-all duration-300"
             >
               <span className="flex items-center gap-2">

@@ -43,7 +43,7 @@ const TechTalksFooter = () => {
     },
     {
       label: "Email",
-      href: "mailto:contact@techtalkslb.com",
+      href: "mailto:techtalks.lb@gmail.com",
       icon: <CiMail className="w-5 h-5" />,
       bgGradient: "bg-gradient-to-br from-red-500 to-red-600",
       hoverGradient: "hover:from-red-600 hover:to-red-700",

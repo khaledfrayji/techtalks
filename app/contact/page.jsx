@@ -52,8 +52,8 @@ const TechTalksContactPage = () => {
       icon: <Mail className="w-8 h-8 text-white" />,
       title: "Email",
       description: "For formal inquiries, suggestions",
-      action: "hello@techtalks.dev",
-      link: "mailto:hello@techtalks.dev",
+      action: "techtalks.lb@gmail.com",
+      link: "mailto:techtalks.lb@gmail.com",
       color: "from-blue-500 to-blue-600",
       badge: "Business Inquiries"
     },
@@ -62,7 +62,7 @@ const TechTalksContactPage = () => {
       title: "Instagram",
       description: "DM for casual messages or feedback",
       action: "@techtalks",
-      link: "https://instagram.com/techtalks",
+      link: "https://instagram.com/techtalks.lb",
       color: "from-pink-500 to-rose-600",
       badge: "Social"
     },
@@ -71,7 +71,7 @@ const TechTalksContactPage = () => {
       title: "LinkedIn",
       description: "Collaboration or partnership messages",
       action: "TechTalks Company",
-      link: "https://linkedin.com/company/techtalks",
+      link: "https://linkedin.com/company/techtalkscourses",
       color: "from-blue-600 to-indigo-600",
       badge: "Partnerships"
     }

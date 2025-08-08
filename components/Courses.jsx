@@ -415,31 +415,7 @@ const TechTalksCourses = () => {
           </>
         )}
 
-        {/* CTA Section */}
-        <div className="bg-gradient-to-r from-gray-900/50 to-gray-800/50 backdrop-blur-sm border border-gray-700 rounded-xl p-6 sm:p-8 text-center">
-          <h3 className="text-xl sm:text-2xl font-bold text-white mb-4">
-            Ready to Level Up Your Skills?
-          </h3>
-          <p className="text-gray-300 mb-6 max-w-2xl mx-auto text-sm sm:text-base">
-            Join TechTalks Pro for unlimited access to all courses, exclusive
-            content, and direct mentorship from industry experts.
-          </p>
-          <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <Link
-              href="/ambassador"
-              className="bg-gradient-to-r from-purple-500 to-cyan-500 hover:from-purple-600 hover:to-cyan-600 text-white px-6 sm:px-8 py-3 rounded-lg font-medium transition-all duration-300 transform hover:scale-105 inline-flex items-center justify-center gap-2"
-            >
-              Become TechTalks Ambassador
-              <ArrowRight size={16} />
-            </Link>
-            <Link
-              href="https://wa.me/96176667359"
-              className="border border-gray-600 hover:border-gray-500 text-gray-300 hover:text-white px-6 sm:px-8 py-3 rounded-lg font-medium transition-all duration-300 inline-block"
-            >
-              Get Career Advice
-            </Link>
-          </div>
-        </div>
+       
       </div>
 
       <style jsx>{`
