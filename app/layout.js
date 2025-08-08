@@ -3,6 +3,7 @@ import "./globals.css";
 import Navbar from "../components/Navbar";
 import TechTalksFooter from "@/components/Footer";
 import WhatsAppStickyButton from "@/components/Whatsapp";
+import Link from "next/link";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -164,12 +165,12 @@ export default function RootLayout({ children }) {
         suppressHydrationWarning
       >
         {/* Skip to main content for accessibility */}
-        <a
+        <Link
           href="/"
           className="sr-only focus:not-sr-only focus:absolute focus:top-4 focus:left-4 bg-blue-600 text-white px-4 py-2 rounded-md z-50"
         >
           Skip to main content
-        </a>
+        </Link>
         
         <Navbar />
         <WhatsAppStickyButton />
