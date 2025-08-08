@@ -40,13 +40,7 @@ export const metadata = {
     "tech education",
     "coding mentorship",
   ],
-  authors: [{ name: "TechTalks" }],
-  creator: "TechTalks",
-  publisher: "TechTalks",
-  metadataBase: new URL(siteUrl),
-  alternates: {
-    canonical: siteUrl,
-  },
+  
 
   other: {
     "theme-color": "#0d1117",
